@@ -99,6 +99,60 @@ Keep the table design strictly in HTML for simplicity.
 ## Output:
 ![image](https://github.com/user-attachments/assets/37a57b64-dcb4-41a1-9514-135bdf1c38c6)
 
+## CSS Code:
+/* Body Styling */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Page Title */
+.page-title {
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+
+/* Caption Styling */
+caption {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+/* Table Header */
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Cells */
+tbody td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Alternating Rows */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover Row Effect */
+tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
+## Output:
+![image](https://github.com/user-attachments/assets/255eff64-f8db-422b-afa1-e75b9faa62e4)
+
+
 
 ## Result:
 A structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes is created successfully.
