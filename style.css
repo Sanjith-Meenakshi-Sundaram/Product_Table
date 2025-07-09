@@ -1,48 +1,33 @@
-/* Body Styling */
-body {
+body{
     background-color: #f9f9f9;
-    font-family: Arial, sans-serif;
+    font-family:Arial, sans-serif;
 }
-
-/* Page Title */
-.page-title {
-    text-align: center;
+.page-title{
+    text-align:center;
 }
-
-/* Table Styling */
-table {
-    border-collapse: collapse;
-    margin: auto;
-    width: 80%;
+table{
+    border-collapse:collapse;
+    margin:auto;
+    width:80%;
 }
-
-/* Caption Styling */
-caption {
-    font-weight: bold;
-    font-size: 1.5em;
-    margin: 20px 0;
+caption{
+    font-weight:bold;
+    font-size:1.5em;
+    margin:20px 0;
 }
-
-/* Table Header */
-thead th {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px;
-    text-align: left;
+thead th{
+    background-color:#4CAF50;
+    color:white;
+    padding:12px;
+    text-align:left;
 }
-
-/* Table Cells */
-tbody td {
-    border: 1px solid #ddd;
-    padding: 10px;
+tbody td{
+    border:1px solid #ddd;
+    padding:10px;
 }
-
-/* Alternating Rows */
-tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
+tbody tr:nth-child(even){
+    background-color:#f2f2f2;
 }
-
-/* Hover Row Effect */
-tbody tr:hover {
-    background-color: #e6f7ff;
+tbody tr:hover{
+    background-color:#e6f7ff;
 }
